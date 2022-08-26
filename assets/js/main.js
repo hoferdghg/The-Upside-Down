@@ -1,4 +1,4 @@
-import app from "./firebase/app.js"
+
 import { subscribeToHellfireClub } from "./firebase/hellfireclub1.js"
 
 console.log(app)
