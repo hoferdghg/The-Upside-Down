@@ -5,16 +5,15 @@ const txtLevel = document.getElementById('txtLevel')
 const txtCharacter = document.getElementById('txtCharacter')
 const btnSubscribe = document.getElementById('btnSubscribe')
 
-debugger
-
 btnSubscribe.addEventListener('click', () => {
     const subscription = {
         name: txtName.value,
         email: txtEmail.value,
         level: txtLevel.value,
-        charater: txtCharacter.value
+        character: txtCharacter.value
     }
 
-    console.log(subscription)
+    // Salvar no banco de dados!
+     console.log(subscription)
 })
 
