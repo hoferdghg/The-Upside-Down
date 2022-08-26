@@ -3,6 +3,7 @@ import { getFirestore, collection, addDoc } from 'https://www.gstatic.com/fireba
 
 
 export async function subscribeToHellfireClub(subscription) {
+    debugger
     const db = getFirestore(app)
     const hellfireClubCollection = collection(db, hellfire-club)
     const docRef = await addDoc (hellfireClubCollection, subscription)
