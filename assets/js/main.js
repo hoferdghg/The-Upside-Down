@@ -5,3 +5,8 @@ const txtCharacter = document.getElementById('txtCharacter')
 const btnSubscribe = document.getElementById('btnSubscribe')
 
 debugger
+
+btnSubscribe.addEventListener('click', () => {
+    console.log ('Passou por aqui hein!')
+})
+
