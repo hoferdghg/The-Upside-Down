@@ -8,7 +8,7 @@ const txtCharacter = document.getElementById('txtCharacter')
 
 const btnSubscribe = document.getElementById('btnSubscribe')
 
-btnSubscribe.addEventListener('click', async () => {
+btnSubscribe.addEventListener('click', () => {
     const subscription = {
         name: txtName.value,
         email: txtEmail.value,
@@ -16,7 +16,7 @@ btnSubscribe.addEventListener('click', async () => {
         character: txtCharacter.value
     }
 
-    const subscriptionId = await subscribeToHellfireClub(subscription)
-    console.log('Inscrição realizada com sucesso!: ${subscriptioId}')
+    const subscriptionId = subscribeToHellfireClub(subscription)
+    console.log(`Inscrição realizada com sucesso!: ${subscriptionId}`)
 })
 
