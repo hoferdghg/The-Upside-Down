@@ -1,3 +1,3 @@
 # The Upside Down
- Landing page created in the Front End Week course - DIO
+ Landing page criada como exercício do curso Front End Week - DIO
 https://hoferdghg.github.io/The-Upside-Down/
